@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A716C7C318CA28EF008FE0CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7C218CA28EF008FE0CA /* Foundation.framework */; };
+		A716C7C518CA28EF008FE0CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7C418CA28EF008FE0CA /* CoreGraphics.framework */; };
+		A716C7C718CA28EF008FE0CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7C618CA28EF008FE0CA /* UIKit.framework */; };
+		A716C7CD18CA28EF008FE0CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A716C7CB18CA28EF008FE0CA /* InfoPlist.strings */; };
+		A716C7CF18CA28EF008FE0CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A716C7CE18CA28EF008FE0CA /* main.m */; };
+		A716C7D318CA28EF008FE0CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A716C7D218CA28EF008FE0CA /* AppDelegate.m */; };
+		A716C7D618CA28EF008FE0CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A716C7D418CA28EF008FE0CA /* Main.storyboard */; };
+		A716C7D918CA28EF008FE0CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A716C7D818CA28EF008FE0CA /* ViewController.m */; };
+		A716C7DB18CA28EF008FE0CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A716C7DA18CA28EF008FE0CA /* Images.xcassets */; };
+		A716C7E218CA28EF008FE0CA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7E118CA28EF008FE0CA /* XCTest.framework */; };
+		A716C7E318CA28EF008FE0CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7C218CA28EF008FE0CA /* Foundation.framework */; };
+		A716C7E418CA28EF008FE0CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7C618CA28EF008FE0CA /* UIKit.framework */; };
+		A716C7EC18CA28EF008FE0CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A716C7EA18CA28EF008FE0CA /* InfoPlist.strings */; };
+		A716C7EE18CA28EF008FE0CA /* AFPopup_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A716C7ED18CA28EF008FE0CA /* AFPopup_DemoTests.m */; };
+		A716C7F918CA290C008FE0CA /* AFPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = A716C7F818CA290C008FE0CA /* AFPopupView.m */; };
+		A716C7FC18CA2E0B008FE0CA /* ModalTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A716C7FB18CA2E0B008FE0CA /* ModalTestViewController.m */; };
+		A716C7FE18CA30DD008FE0CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7FD18CA30DD008FE0CA /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A716C7E518CA28EF008FE0CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A716C7B718CA28EF008FE0CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A716C7BE18CA28EF008FE0CA;
+			remoteInfo = "AFPopup-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A716C7BF18CA28EF008FE0CA /* AFPopup-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFPopup-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A716C7C218CA28EF008FE0CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A716C7C418CA28EF008FE0CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A716C7C618CA28EF008FE0CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A716C7CA18CA28EF008FE0CA /* AFPopup-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFPopup-Demo-Info.plist"; sourceTree = "<group>"; };
+		A716C7CC18CA28EF008FE0CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A716C7CE18CA28EF008FE0CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A716C7D018CA28EF008FE0CA /* AFPopup-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFPopup-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		A716C7D118CA28EF008FE0CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A716C7D218CA28EF008FE0CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A716C7D518CA28EF008FE0CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A716C7D718CA28EF008FE0CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A716C7D818CA28EF008FE0CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A716C7DA18CA28EF008FE0CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A716C7E018CA28EF008FE0CA /* AFPopup-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFPopup-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A716C7E118CA28EF008FE0CA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A716C7E918CA28EF008FE0CA /* AFPopup-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFPopup-DemoTests-Info.plist"; sourceTree = "<group>"; };
+		A716C7EB18CA28EF008FE0CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A716C7ED18CA28EF008FE0CA /* AFPopup_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPopup_DemoTests.m; sourceTree = "<group>"; };
+		A716C7F718CA290C008FE0CA /* AFPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPopupView.h; sourceTree = "<group>"; };
+		A716C7F818CA290C008FE0CA /* AFPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPopupView.m; sourceTree = "<group>"; };
+		A716C7FA18CA2E0B008FE0CA /* ModalTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalTestViewController.h; sourceTree = "<group>"; };
+		A716C7FB18CA2E0B008FE0CA /* ModalTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalTestViewController.m; sourceTree = "<group>"; };
+		A716C7FD18CA30DD008FE0CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A716C7BC18CA28EF008FE0CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A716C7FE18CA30DD008FE0CA /* QuartzCore.framework in Frameworks */,
+				A716C7C518CA28EF008FE0CA /* CoreGraphics.framework in Frameworks */,
+				A716C7C718CA28EF008FE0CA /* UIKit.framework in Frameworks */,
+				A716C7C318CA28EF008FE0CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A716C7DD18CA28EF008FE0CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A716C7E218CA28EF008FE0CA /* XCTest.framework in Frameworks */,
+				A716C7E418CA28EF008FE0CA /* UIKit.framework in Frameworks */,
+				A716C7E318CA28EF008FE0CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A716C7B618CA28EF008FE0CA = {
+			isa = PBXGroup;
+			children = (
+				A716C7C818CA28EF008FE0CA /* AFPopup-Demo */,
+				A716C7E718CA28EF008FE0CA /* AFPopup-DemoTests */,
+				A716C7C118CA28EF008FE0CA /* Frameworks */,
+				A716C7C018CA28EF008FE0CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A716C7C018CA28EF008FE0CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A716C7BF18CA28EF008FE0CA /* AFPopup-Demo.app */,
+				A716C7E018CA28EF008FE0CA /* AFPopup-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A716C7C118CA28EF008FE0CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A716C7FD18CA30DD008FE0CA /* QuartzCore.framework */,
+				A716C7C218CA28EF008FE0CA /* Foundation.framework */,
+				A716C7C418CA28EF008FE0CA /* CoreGraphics.framework */,
+				A716C7C618CA28EF008FE0CA /* UIKit.framework */,
+				A716C7E118CA28EF008FE0CA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A716C7C818CA28EF008FE0CA /* AFPopup-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A716C7D118CA28EF008FE0CA /* AppDelegate.h */,
+				A716C7D218CA28EF008FE0CA /* AppDelegate.m */,
+				A716C7D418CA28EF008FE0CA /* Main.storyboard */,
+				A716C7D718CA28EF008FE0CA /* ViewController.h */,
+				A716C7D818CA28EF008FE0CA /* ViewController.m */,
+				A716C7FA18CA2E0B008FE0CA /* ModalTestViewController.h */,
+				A716C7FB18CA2E0B008FE0CA /* ModalTestViewController.m */,
+				A716C7F718CA290C008FE0CA /* AFPopupView.h */,
+				A716C7F818CA290C008FE0CA /* AFPopupView.m */,
+				A716C7DA18CA28EF008FE0CA /* Images.xcassets */,
+				A716C7C918CA28EF008FE0CA /* Supporting Files */,
+			);
+			path = "AFPopup-Demo";
+			sourceTree = "<group>";
+		};
+		A716C7C918CA28EF008FE0CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A716C7CA18CA28EF008FE0CA /* AFPopup-Demo-Info.plist */,
+				A716C7CB18CA28EF008FE0CA /* InfoPlist.strings */,
+				A716C7CE18CA28EF008FE0CA /* main.m */,
+				A716C7D018CA28EF008FE0CA /* AFPopup-Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A716C7E718CA28EF008FE0CA /* AFPopup-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A716C7ED18CA28EF008FE0CA /* AFPopup_DemoTests.m */,
+				A716C7E818CA28EF008FE0CA /* Supporting Files */,
+			);
+			path = "AFPopup-DemoTests";
+			sourceTree = "<group>";
+		};
+		A716C7E818CA28EF008FE0CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A716C7E918CA28EF008FE0CA /* AFPopup-DemoTests-Info.plist */,
+				A716C7EA18CA28EF008FE0CA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A716C7BE18CA28EF008FE0CA /* AFPopup-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A716C7F118CA28EF008FE0CA /* Build configuration list for PBXNativeTarget "AFPopup-Demo" */;
+			buildPhases = (
+				A716C7BB18CA28EF008FE0CA /* Sources */,
+				A716C7BC18CA28EF008FE0CA /* Frameworks */,
+				A716C7BD18CA28EF008FE0CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFPopup-Demo";
+			productName = "AFPopup-Demo";
+			productReference = A716C7BF18CA28EF008FE0CA /* AFPopup-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A716C7DF18CA28EF008FE0CA /* AFPopup-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A716C7F418CA28EF008FE0CA /* Build configuration list for PBXNativeTarget "AFPopup-DemoTests" */;
+			buildPhases = (
+				A716C7DC18CA28EF008FE0CA /* Sources */,
+				A716C7DD18CA28EF008FE0CA /* Frameworks */,
+				A716C7DE18CA28EF008FE0CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A716C7E618CA28EF008FE0CA /* PBXTargetDependency */,
+			);
+			name = "AFPopup-DemoTests";
+			productName = "AFPopup-DemoTests";
+			productReference = A716C7E018CA28EF008FE0CA /* AFPopup-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A716C7B718CA28EF008FE0CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = AlvaroFranco;
+				TargetAttributes = {
+					A716C7DF18CA28EF008FE0CA = {
+						TestTargetID = A716C7BE18CA28EF008FE0CA;
+					};
+				};
+			};
+			buildConfigurationList = A716C7BA18CA28EF008FE0CA /* Build configuration list for PBXProject "AFPopup-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A716C7B618CA28EF008FE0CA;
+			productRefGroup = A716C7C018CA28EF008FE0CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A716C7BE18CA28EF008FE0CA /* AFPopup-Demo */,
+				A716C7DF18CA28EF008FE0CA /* AFPopup-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A716C7BD18CA28EF008FE0CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A716C7DB18CA28EF008FE0CA /* Images.xcassets in Resources */,
+				A716C7CD18CA28EF008FE0CA /* InfoPlist.strings in Resources */,
+				A716C7D618CA28EF008FE0CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A716C7DE18CA28EF008FE0CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A716C7EC18CA28EF008FE0CA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A716C7BB18CA28EF008FE0CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A716C7FC18CA2E0B008FE0CA /* ModalTestViewController.m in Sources */,
+				A716C7D918CA28EF008FE0CA /* ViewController.m in Sources */,
+				A716C7D318CA28EF008FE0CA /* AppDelegate.m in Sources */,
+				A716C7CF18CA28EF008FE0CA /* main.m in Sources */,
+				A716C7F918CA290C008FE0CA /* AFPopupView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A716C7DC18CA28EF008FE0CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A716C7EE18CA28EF008FE0CA /* AFPopup_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A716C7E618CA28EF008FE0CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A716C7BE18CA28EF008FE0CA /* AFPopup-Demo */;
+			targetProxy = A716C7E518CA28EF008FE0CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A716C7CB18CA28EF008FE0CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A716C7CC18CA28EF008FE0CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A716C7D418CA28EF008FE0CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A716C7D518CA28EF008FE0CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A716C7EA18CA28EF008FE0CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A716C7EB18CA28EF008FE0CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A716C7EF18CA28EF008FE0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A716C7F018CA28EF008FE0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A716C7F218CA28EF008FE0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFPopup-Demo/AFPopup-Demo-Prefix.pch";
+				INFOPLIST_FILE = "AFPopup-Demo/AFPopup-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A716C7F318CA28EF008FE0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFPopup-Demo/AFPopup-Demo-Prefix.pch";
+				INFOPLIST_FILE = "AFPopup-Demo/AFPopup-Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A716C7F518CA28EF008FE0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFPopup-Demo.app/AFPopup-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFPopup-Demo/AFPopup-Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AFPopup-DemoTests/AFPopup-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A716C7F618CA28EF008FE0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFPopup-Demo.app/AFPopup-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFPopup-Demo/AFPopup-Demo-Prefix.pch";
+				INFOPLIST_FILE = "AFPopup-DemoTests/AFPopup-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A716C7BA18CA28EF008FE0CA /* Build configuration list for PBXProject "AFPopup-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A716C7EF18CA28EF008FE0CA /* Debug */,
+				A716C7F018CA28EF008FE0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A716C7F118CA28EF008FE0CA /* Build configuration list for PBXNativeTarget "AFPopup-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A716C7F218CA28EF008FE0CA /* Debug */,
+				A716C7F318CA28EF008FE0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A716C7F418CA28EF008FE0CA /* Build configuration list for PBXNativeTarget "AFPopup-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A716C7F518CA28EF008FE0CA /* Debug */,
+				A716C7F618CA28EF008FE0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A716C7B718CA28EF008FE0CA /* Project object */;
+}
