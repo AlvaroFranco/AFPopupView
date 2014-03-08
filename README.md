@@ -28,7 +28,7 @@ Import AFPopupView to your class
 
 Declare ```AFPopupView```
 
-   @property (nonatomic, strong) AFPopupView *popup;
+    @property (nonatomic, strong) AFPopupView *popup;
 
 Init the class with ```-popupWithView:``` assigning a valid UIView that will be shown. When you're ready to open the view, just call ```-show```
 
