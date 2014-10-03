@@ -10,9 +10,11 @@
 
 @interface AFPopupView : UIView
 
+@property (nonatomic) BOOL hideOnBackgroundTap;
+
 +(AFPopupView *)popupWithView:(UIView *)popupView;
 
 -(void)show;
--(void)hide;
+-(void)hideWithActions:(void (^)(void))actions;
 
 @end
