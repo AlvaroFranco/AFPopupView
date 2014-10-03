@@ -74,6 +74,9 @@ CATransform3DMake(CGFloat m11, CGFloat m12, CGFloat m13, CGFloat m14,
     [view addSubview:view.backgroundShadowView];
     [view addSubview:view.modalView];
     
+    UITapGestureRecognizer *hideGesture = [[UITapGestureRecognizer alloc] initWithTarget:view action:@selector(hideByTap)];
+    [view.backgroundShadowView addGestureRecognizer:hideGesture];
+    
     return view;
 }
 
@@ -128,7 +131,7 @@ CATransform3DMake(CGFloat m11, CGFloat m12, CGFloat m13, CGFloat m14,
 
 }
 
--(void)hide {
+-(void)hideWithActions:(void (^)(void))actions {
     
     [UIView animateWithDuration:0.4
                           delay:0
@@ -157,8 +160,17 @@ CATransform3DMake(CGFloat m11, CGFloat m12, CGFloat m13, CGFloat m14,
                              _renderImage.layer.transform = CATransform3DMakePerspective(0, 0);
                          } completion:^(BOOL finished) {
                              [self removeFromSuperview];
+                             if (finished && actions) {
+                                actions();
+                             }
                          }];
                      }];
+}
+
+-(void)hideByTap {
+    if (_hideOnBackgroundTap) {
+        [self hideWithActions:nil];
+    }
 }
 
 -(UIImage *)imageWithView:(UIView *)view {

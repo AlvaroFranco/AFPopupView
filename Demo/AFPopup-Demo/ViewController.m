@@ -43,7 +43,7 @@
 
 -(void)hide {
 
-    [_popup hide];
+    [_popup hideWithActions:nil];
 }
 
 -(void)didReceiveMemoryWarning {

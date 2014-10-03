@@ -15,6 +15,6 @@
 +(AFPopupView *)popupWithView:(UIView *)popupView;
 
 -(void)show;
--(void)hide;
+-(void)hideWithActions:(void (^)(void))actions;
 
 @end
