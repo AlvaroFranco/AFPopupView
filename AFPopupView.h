@@ -16,5 +16,5 @@
 
 -(void)show;
 -(void)hide;
-
+-(void)hideAndRestore;
 @end

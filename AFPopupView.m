@@ -35,7 +35,12 @@ CATransform3DMake(CGFloat m11, CGFloat m12, CGFloat m13, CGFloat m14,
 
 @end
 
-@implementation AFPopupView
+@implementation AFPopupView{
+    BOOL _restoreable;
+    UIView * _popupView;
+    UIView * _originalSuperView;
+    NSUInteger _originalIndex;
+}
 
 +(AFPopupView *)popupWithView:(UIView *)popupView {
     
@@ -48,6 +53,10 @@ CATransform3DMake(CGFloat m11, CGFloat m12, CGFloat m13, CGFloat m14,
     }
     
     AFPopupView *view = [[AFPopupView alloc] initWithFrame:rect];
+    
+    view->_popupView = popupView;
+    view->_originalSuperView = [popupView superview];
+    view->_originalIndex = [[[popupView superview] subviews] indexOfObject:popupView];
     
     view.modalView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, [[UIScreen mainScreen]bounds].size.width, [[UIScreen mainScreen]bounds].size.height - (50 * 2))];
     view.modalView.backgroundColor = [UIColor clearColor];
@@ -168,6 +177,19 @@ CATransform3DMake(CGFloat m11, CGFloat m12, CGFloat m13, CGFloat m14,
     if (_hideOnBackgroundTap) {
         [self hide];
     }
+}
+
+-(void)hideAndRestore {
+    _restoreable = YES;
+    [self hide];
+}
+
+- (void)removeFromSuperview; {
+    if(_restoreable && _originalSuperView && _popupView){
+        [_originalSuperView insertSubview:_popupView atIndex:_originalIndex];
+        _restoreable = NO;
+    }
+    [super removeFromSuperview];
 }
 
 -(UIImage *)imageWithView:(UIView *)view {
