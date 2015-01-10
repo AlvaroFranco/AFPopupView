@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 AlvaroFranco. All rights reserved.
 //
 
-#import "ModalTestViewController.h"
+#import "AFPopupViewController.h"
 
-@interface ModalTestViewController ()
+@interface AFPopupViewController ()
 
 @end
 
-@implementation ModalTestViewController
+@implementation AFPopupViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

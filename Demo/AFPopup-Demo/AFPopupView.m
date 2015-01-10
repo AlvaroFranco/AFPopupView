@@ -92,7 +92,7 @@ CATransform3DMake(CGFloat m11, CGFloat m12, CGFloat m13, CGFloat m14,
     
     _backgroundShadowView.alpha = 0.0;
     [rootView addSubview:self];
-    _modalView.center = CGPointMake(self.frame.size.width/2.0, _modalView.frame.size.height * 1.5);
+    self.modalView.center = CGPointMake(self.frame.size.width/2.0, self.modalView.frame.size.height * 1.5);
     
     [UIView animateWithDuration:0.2
                           delay:0
@@ -120,7 +120,7 @@ CATransform3DMake(CGFloat m11, CGFloat m12, CGFloat m13, CGFloat m14,
     [UIView animateWithDuration:0.4 delay:0
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
-                         _modalView.center = self.center;
+                         self.modalView.center = self.center;
                      }
                      completion:^(BOOL finished) {
                          
@@ -134,7 +134,7 @@ CATransform3DMake(CGFloat m11, CGFloat m12, CGFloat m13, CGFloat m14,
                           delay:0
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{
-                         _modalView.center = CGPointMake(self.frame.size.width/2.0, _modalView.frame.size.height * 1.5);
+                         self.modalView.center = CGPointMake(self.frame.size.width/2.0, self.modalView.frame.size.height * 1.5);
                      }
                      completion:^(BOOL finished) {
                          

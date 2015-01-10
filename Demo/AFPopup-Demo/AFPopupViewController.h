@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ModalTestViewController : UIViewController
+@interface AFPopupViewController : UIViewController
 
 -(IBAction)close:(id)sender;
 

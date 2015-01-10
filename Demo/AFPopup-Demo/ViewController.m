@@ -7,47 +7,48 @@
 //
 
 #import "ViewController.h"
-#import "ModalTestViewController.h"
+#import "AFPopupViewController.h"
 #import "AFPopupView.h"
 
 @interface ViewController ()
 
-@property (nonatomic, strong) IBOutlet UIButton *toggleButton;
-@property (nonatomic, strong) ModalTestViewController *modalTest;
-@property (nonatomic, strong) AFPopupView *popup;
+@property (nonatomic, strong) IBOutlet UIButton *showModalViewButton;
+@property (nonatomic, strong) AFPopupViewController *modalVC;
+@property (nonatomic, strong) AFPopupView *modalView;
 
 @end
 
 @implementation ViewController
 
 -(UIStatusBarStyle)preferredStatusBarStyle{
+    
     return UIStatusBarStyleLightContent;
 }
 
 -(void)viewDidLoad {
     [super viewDidLoad];
-    
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:Nil];
-    _modalTest = [storyboard instantiateViewControllerWithIdentifier:@"ModalTest"];
-    
-    [_toggleButton addTarget:self action:@selector(go) forControlEvents:UIControlEventTouchUpInside];
-    
+
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(hide) name:@"HideAFPopup" object:nil];
 }
 
--(void)go {
-    
-    _popup = [AFPopupView popupWithView:_modalTest.view];
-    [_popup show];
+- (IBAction)showPopupView:(UIButton *)sender {
+    // get reference to storyboard
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:Nil];
+
+    // get instance of AFPopupViewController
+    self.modalVC = [storyboard instantiateViewControllerWithIdentifier:@"ModalTest"];
+
+    // get instance of AFPopupView and attach it to AFPopupViewController
+    self.modalView = [AFPopupView popupWithView:self.modalVC.view];
+
+    // present popup view
+    [self.modalView show];
 }
 
 -(void)hide {
 
-    [_popup hide];
-}
-
--(void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+    // hide popup view
+    [self.modalView hide];
 }
 
 @end
