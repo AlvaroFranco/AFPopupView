@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4370D3E21A614736003347A0 /* AFPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370D3DC1A614736003347A0 /* AFPopupView.m */; };
+		4370D3E31A614736003347A0 /* AFPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370D3DE1A614736003347A0 /* AFPopupViewController.m */; };
+		4370D3E41A614736003347A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4370D3DF1A614736003347A0 /* Main.storyboard */; };
+		4370D3E51A614736003347A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4370D3E11A614736003347A0 /* ViewController.m */; };
 		A716C7C318CA28EF008FE0CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7C218CA28EF008FE0CA /* Foundation.framework */; };
 		A716C7C518CA28EF008FE0CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7C418CA28EF008FE0CA /* CoreGraphics.framework */; };
 		A716C7C718CA28EF008FE0CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7C618CA28EF008FE0CA /* UIKit.framework */; };
 		A716C7CD18CA28EF008FE0CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A716C7CB18CA28EF008FE0CA /* InfoPlist.strings */; };
 		A716C7CF18CA28EF008FE0CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A716C7CE18CA28EF008FE0CA /* main.m */; };
 		A716C7D318CA28EF008FE0CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A716C7D218CA28EF008FE0CA /* AppDelegate.m */; };
-		A716C7D618CA28EF008FE0CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A716C7D418CA28EF008FE0CA /* Main.storyboard */; };
-		A716C7D918CA28EF008FE0CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A716C7D818CA28EF008FE0CA /* ViewController.m */; };
 		A716C7DB18CA28EF008FE0CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A716C7DA18CA28EF008FE0CA /* Images.xcassets */; };
 		A716C7E218CA28EF008FE0CA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7E118CA28EF008FE0CA /* XCTest.framework */; };
 		A716C7E318CA28EF008FE0CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7C218CA28EF008FE0CA /* Foundation.framework */; };
 		A716C7E418CA28EF008FE0CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7C618CA28EF008FE0CA /* UIKit.framework */; };
 		A716C7EC18CA28EF008FE0CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A716C7EA18CA28EF008FE0CA /* InfoPlist.strings */; };
 		A716C7EE18CA28EF008FE0CA /* AFPopup_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A716C7ED18CA28EF008FE0CA /* AFPopup_DemoTests.m */; };
-		A716C7F918CA290C008FE0CA /* AFPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = A716C7F818CA290C008FE0CA /* AFPopupView.m */; };
-		A716C7FC18CA2E0B008FE0CA /* ModalTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A716C7FB18CA2E0B008FE0CA /* ModalTestViewController.m */; };
 		A716C7FE18CA30DD008FE0CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716C7FD18CA30DD008FE0CA /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4370D3DB1A614736003347A0 /* AFPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPopupView.h; sourceTree = "<group>"; };
+		4370D3DC1A614736003347A0 /* AFPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPopupView.m; sourceTree = "<group>"; };
+		4370D3DD1A614736003347A0 /* AFPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPopupViewController.h; sourceTree = "<group>"; };
+		4370D3DE1A614736003347A0 /* AFPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPopupViewController.m; sourceTree = "<group>"; };
+		4370D3DF1A614736003347A0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4370D3E01A614736003347A0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4370D3E11A614736003347A0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A716C7BF18CA28EF008FE0CA /* AFPopup-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFPopup-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A716C7C218CA28EF008FE0CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A716C7C418CA28EF008FE0CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,19 +54,12 @@
 		A716C7D018CA28EF008FE0CA /* AFPopup-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFPopup-Demo-Prefix.pch"; sourceTree = "<group>"; };
 		A716C7D118CA28EF008FE0CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A716C7D218CA28EF008FE0CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A716C7D518CA28EF008FE0CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A716C7D718CA28EF008FE0CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A716C7D818CA28EF008FE0CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A716C7DA18CA28EF008FE0CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A716C7E018CA28EF008FE0CA /* AFPopup-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFPopup-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A716C7E118CA28EF008FE0CA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A716C7E918CA28EF008FE0CA /* AFPopup-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFPopup-DemoTests-Info.plist"; sourceTree = "<group>"; };
 		A716C7EB18CA28EF008FE0CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A716C7ED18CA28EF008FE0CA /* AFPopup_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFPopup_DemoTests.m; sourceTree = "<group>"; };
-		A716C7F718CA290C008FE0CA /* AFPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPopupView.h; sourceTree = "<group>"; };
-		A716C7F818CA290C008FE0CA /* AFPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPopupView.m; sourceTree = "<group>"; };
-		A716C7FA18CA2E0B008FE0CA /* ModalTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalTestViewController.h; sourceTree = "<group>"; };
-		A716C7FB18CA2E0B008FE0CA /* ModalTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalTestViewController.m; sourceTree = "<group>"; };
 		A716C7FD18CA30DD008FE0CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -88,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4370D3E61A61473E003347A0 /* AFPopupView */ = {
+			isa = PBXGroup;
+			children = (
+				4370D3DB1A614736003347A0 /* AFPopupView.h */,
+				4370D3DC1A614736003347A0 /* AFPopupView.m */,
+				4370D3DD1A614736003347A0 /* AFPopupViewController.h */,
+				4370D3DE1A614736003347A0 /* AFPopupViewController.m */,
+			);
+			name = AFPopupView;
+			sourceTree = "<group>";
+		};
 		A716C7B618CA28EF008FE0CA = {
 			isa = PBXGroup;
 			children = (
@@ -122,16 +133,13 @@
 		A716C7C818CA28EF008FE0CA /* AFPopup-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				4370D3E61A61473E003347A0 /* AFPopupView */,
 				A716C7D118CA28EF008FE0CA /* AppDelegate.h */,
 				A716C7D218CA28EF008FE0CA /* AppDelegate.m */,
-				A716C7D418CA28EF008FE0CA /* Main.storyboard */,
-				A716C7D718CA28EF008FE0CA /* ViewController.h */,
-				A716C7D818CA28EF008FE0CA /* ViewController.m */,
-				A716C7FA18CA2E0B008FE0CA /* ModalTestViewController.h */,
-				A716C7FB18CA2E0B008FE0CA /* ModalTestViewController.m */,
-				A716C7F718CA290C008FE0CA /* AFPopupView.h */,
-				A716C7F818CA290C008FE0CA /* AFPopupView.m */,
+				4370D3E01A614736003347A0 /* ViewController.h */,
+				4370D3E11A614736003347A0 /* ViewController.m */,
 				A716C7DA18CA28EF008FE0CA /* Images.xcassets */,
+				4370D3DF1A614736003347A0 /* Main.storyboard */,
 				A716C7C918CA28EF008FE0CA /* Supporting Files */,
 			);
 			path = "AFPopup-Demo";
@@ -210,7 +218,7 @@
 		A716C7B718CA28EF008FE0CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = AlvaroFranco;
 				TargetAttributes = {
 					A716C7DF18CA28EF008FE0CA = {
@@ -242,9 +250,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4370D3E41A614736003347A0 /* Main.storyboard in Resources */,
 				A716C7DB18CA28EF008FE0CA /* Images.xcassets in Resources */,
 				A716C7CD18CA28EF008FE0CA /* InfoPlist.strings in Resources */,
-				A716C7D618CA28EF008FE0CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,11 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A716C7FC18CA2E0B008FE0CA /* ModalTestViewController.m in Sources */,
-				A716C7D918CA28EF008FE0CA /* ViewController.m in Sources */,
+				4370D3E31A614736003347A0 /* AFPopupViewController.m in Sources */,
 				A716C7D318CA28EF008FE0CA /* AppDelegate.m in Sources */,
+				4370D3E21A614736003347A0 /* AFPopupView.m in Sources */,
 				A716C7CF18CA28EF008FE0CA /* main.m in Sources */,
-				A716C7F918CA290C008FE0CA /* AFPopupView.m in Sources */,
+				4370D3E51A614736003347A0 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,14 +306,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		A716C7D418CA28EF008FE0CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A716C7D518CA28EF008FE0CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A716C7EA18CA28EF008FE0CA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -321,7 +321,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -360,7 +359,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -418,7 +416,6 @@
 		A716C7F518CA28EF008FE0CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFPopup-Demo.app/AFPopup-Demo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -441,7 +438,6 @@
 		A716C7F618CA28EF008FE0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFPopup-Demo.app/AFPopup-Demo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
