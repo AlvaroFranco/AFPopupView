@@ -7,7 +7,7 @@ A simple to use and functional popup view for iOS, as seen in Wunderlist iOS app
 
 ![alt text](https://raw.github.com/AlvaroFranco/AFPopupView/master/preview.gif "Example")
 
-##Cocoapods
+##CocoaPods
 
 AFPopupView is on [CocoaPods](http://cocoapods.org), so you can get the pod by adding this line to your Podfile
 
