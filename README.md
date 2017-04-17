@@ -3,11 +3,11 @@ AFPopupView
 
 A simple to use and functional popup view for iOS, as seen in Wunderlist iOS app.
 
-##Preview
+## Preview
 
 ![alt text](https://raw.github.com/AlvaroFranco/AFPopupView/master/preview.gif "Example")
 
-##Cocoapods
+## Cocoapods
 
 AFPopupView is on [CocoaPods](http://cocoapods.org), so you can get the pod by adding this line to your Podfile
 
@@ -18,7 +18,7 @@ If not, just import these files to your project:
     AFPopupView.h
     AFPopupView.m
 
-##Usage
+## Usage
 
 First of all, make sure that you've added to your project the ```QuartzCore``` framework.
 
@@ -39,6 +39,6 @@ To hide it, call ```-hide```
 
     [_popup hide];
 
-##Author
+## Author
 
 Made by Alvaro Franco. If you have any question, feel free to drop me a line at [alvarofrancoayala@gmail.com](mailto:alvarofrancoayala@gmail.com)
